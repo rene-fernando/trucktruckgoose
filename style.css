@@ -9,15 +9,30 @@ body {
         text-align: center;
         border: 10px solid white;
     }
-    button{
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Set the container height to full viewport height */
+    }
+    
+    #buttons-container {
+        display: flex;
+        justify-content: space-between; /* Spread buttons apart evenly */
+        width: 15%; /* Optionally adjust container width */
+        margin-top: 50px; /* Adjust the margin for spacing */
+    }
+    
+    button {
         background-color: #825959;
         color: white;
-        padding: 10px 20px;
-        margin: 40px;
+        padding: 10px 10px;
+        margin: 10px 0; /* Adjust the vertical margin */
         border: none;
         cursor: pointer;
-        align-items: right;
     }
+    
     #result{
         text-align: center;
 
