@@ -24,7 +24,10 @@ document.addEventListener('DOMContentLoaded', function () {
         'WHY DON\'T YOU GO TO ',
         'HAVE YOU EATEN HERE YET?: ',
         'WHY NOT SUPPORT ',
-        'SHOW SOME LOVE TO '
+        'SHOW SOME LOVE TO ',
+        'LET\'S GET ROWDY AND TRY',
+        'RUN OVER TO ',
+        'HOW ABOUT '
     ];
 
     // Function to fetch data from Yelp API

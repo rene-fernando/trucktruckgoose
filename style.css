@@ -23,7 +23,7 @@ h1{
     justify-content: space-between;
     align-items: center; /* Spread buttons apart evenly */
    /* width: 100%; /* Optionally adjust container width */
-    margin-top: 50px; /* Adjust the margin for spacing */
+    margin-top: -10px; /* Adjust the margin for spacing */
 }
 
 button {
@@ -33,10 +33,15 @@ button {
     margin: 10px 0; /* Adjust the vertical margin */
     border: none;
     cursor: pointer;
+    font-weight: bold;
 }
 
 #result{
     text-align: center;
+    margin-top: 25px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    
 
 }
 #check{
