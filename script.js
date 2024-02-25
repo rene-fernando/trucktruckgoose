@@ -29,16 +29,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to fetch data from Yelp API
     async function fetchFoodTrucks(location = 'San Antonio') {
-        const url = `https://api.yelp.com/v3/businesses/search?term=food+trucks&location=${location}`;
+        // const url = `https://api.yelp.com/v3/businesses/search?term=food+trucks&location=${location}`;
+        
+        const url = `https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=food+trucks&location=${location}`;
         
         try {
+            let ret;
             const response = await fetch(url, {
+                method: 'GET', 
                 headers: {
+                    accept: 'application/json',
                     Authorization: `Bearer ${apiKey}`
                 }
-            });
+            })
 
-            if (!response.ok) {
+            if (!response) {
                 throw new Error('Failed to fetch data from Yelp API');
             }
 
