@@ -1,7 +1,47 @@
 body {
+<<<<<<< Updated upstream
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
+=======
+        font-family: helvetica, arial, sans-serif;
+        margin: 2em;
+        background-color: #EFDECD; /* Updated background color */
+        color: #825959;
+    }
+    h1{
+        font-family: verdana, arial, sans-serif;
+        text-align: center;
+        /*border: 10px solid white;*/
+    }
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Set the container height to full viewport height */
+    }
+    
+    #buttons-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; /* Spread buttons apart evenly */
+       /* width: 100%; /* Optionally adjust container width */
+        margin-top: 50px; /* Adjust the margin for spacing */
+    }
+    
+    button {
+        background-color: #825959;
+        color: white;
+        padding: 10px 10px;
+        margin: 10px 0; /* Adjust the vertical margin */
+        border: none;
+        cursor: pointer;
+    }
+    
+    #result{
+        text-align: center;
+>>>>>>> Stashed changes
 
 .container {
     max-width: 800px;
