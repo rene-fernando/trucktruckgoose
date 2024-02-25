@@ -29,14 +29,27 @@ body {
         cursor: pointer;
     }
 
-    #image-container {
+    #eggImage {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100%
+        height: 50%;
     }
     
-    #image-container img {
+    #eggImage a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #eggImage img {
         max-width: 100%; 
         max-height: 100%;
+        width: 100px; /* Adjust the initial size as needed */
+        transition: transform 0.3s ease; /* Add a smooth transition effect */
     }
+    
+    #eggImage:hover img {
+        transform: scale(1.5); /* Scale up the size on hover */
+    }
+    
