@@ -73,7 +73,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const randomIndex = Math.floor(Math.random() * foodTrucks.length);
         const randomFoodTruck = foodTrucks[randomIndex];
         const randomSaying = getRandomSaying();
-        document.getElementById('result').textContent = `${randomSaying}${randomFoodTruck.name}`;
+        
+        document.getElementById('result').innerHTML = `${randomSaying} <a href="${randomFoodTruck.url}" target="_blank">${randomFoodTruck.name}</a>`;
     }
 
     // Event listener for the button click
