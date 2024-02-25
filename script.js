@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'HAVE YOU EATEN HERE YET?: ',
         'WHY NOT SUPPORT ',
         'SHOW SOME LOVE TO ',
-        'LET\'S GET ROWDY AND TRY',
+        'LET\'S GET ROWDY AND TRY ',
         'RUN OVER TO ',
         'HOW ABOUT '
     ];
